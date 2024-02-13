@@ -1,5 +1,5 @@
 .item-card {
-  background-color: white;
+  background-color: #ffffff;
   display: flex; /* unnecesary, only the container needs to be flex */
   /* unless this is another flex container */
   flex-direction: column; /* also unnecesary unless it's for purposes not shown in the example */
@@ -8,7 +8,7 @@
 }
 
 .lbl-title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 16px;
 }

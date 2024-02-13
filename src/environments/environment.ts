@@ -2,8 +2,8 @@
 
 export const environment = {
   apiUrl:"http://localhost:8080",
-  appName: "Motor Bike Shop",
-  appOwner: "USER NAME",
-  appLogo: "https://www.creativefabrica.com/wp-content/uploads/2019/02/Online-shop-shopping-shop-logo-by-DEEMKA-STUDIO-3.jpg",
+  appName: "Soap Shop",
+  appOwner: "Cristian Sergiu Gherasa",
+  appLogo: "https://www.48hourslogo.com/48hourslogo_data/2018/04/03/71800_1522720757.png",//imbagine logo
   itemCategories: ['SMALL', 'MEDIUM', 'LARGE']
 };

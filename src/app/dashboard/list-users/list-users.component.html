@@ -3,6 +3,7 @@
     <mat-card-content>
       <p>Username: <span class="lbl-title">{{user.username | titlecase}}</span></p>
       <p>Email: {{user.email}}</p>
+      <p>User Role:{{user.userRole}}</p>
 
       <div class="div-buttons">
         <button mat-raised-button color="primary" (click)="onEdit(user)">Edit</button>

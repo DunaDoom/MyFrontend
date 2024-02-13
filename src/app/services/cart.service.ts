@@ -43,21 +43,21 @@ export class CartService {
       items: this.cartObservable.getValue()
     }
 
-    this.httpClient.post(`${environment.apiUrl}/carts/`, body).subscribe((response: any) => {
+    this.httpClient.post(`${environment.apiUrl}/cart`, body).subscribe((response: any) => {
       console.log(response)
       this.cartObservable.next([]);
     })
   }
 
   public deleteCart(id: string) {
-    this.httpClient.delete(`${environment.apiUrl}/carts/${id}`).subscribe((response: any) => {
+    this.httpClient.delete(`${environment.apiUrl}/cart/${id}`).subscribe((response: any) => {
       console.log(response);
       this.readAllCarts()
     })
   }
 
   public readAllCarts() {
-    return this.httpClient.get(`${environment.apiUrl}/carts/`).subscribe((response: any) => {
+    return this.httpClient.get(`${environment.apiUrl}/carts`).subscribe((response: any) => {
       this.allCartsObservable.next(response.data)
     });
   }
