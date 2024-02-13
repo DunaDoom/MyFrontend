@@ -3,22 +3,23 @@
 }
 
 .page-sidenav {
-  padding: 20px;
+padding-top: initial;
 }
 
 .page-container {
-  height: 100%;
+  padding-top: unset;
 }
 
 .app-logo {
   width: 300px;
 }
 .app-name {
-  font-size: 20px;
+  font-size: 40px;
   color: black;
-  font-style: normal;
+  font-style: italic;
   font-family: "Comic Sans MS";
   text-align: center;
+  font-weight: bold;
 }
 
 .div-menu {
@@ -26,11 +27,12 @@
 }
 
 .item-menu-title {
-  font-size: 16px;
+  font-size: 20px;
   color: black;
   font-style: normal;
   font-family: "Comic Sans MS";
   text-align: center;
+  font-weight: bold;
 }
 
 .div-banner {
@@ -43,5 +45,9 @@
 .img-banner {
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 20%;
+}
+.div-back {
+  background-image: url("../../assets/img-backgrownd.jpeg");
+
 }
